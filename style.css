@@ -1,0 +1,85 @@
+body, html {
+    height: 100%;
+    background-image: linear-gradient(#db635b,#e3b6b3);
+}
+
+/* Logo */
+.logo{
+    position: relative;
+    width: 12%;
+    top:0;
+    left:0;
+}
+
+/* Top Hero Image */
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./img/hero.jpg");
+    height: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* Navigation Bar */
+.topnav {
+    background-color: #3b1f28;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #b0cec6;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #135729;
+    color: white;
+}
+
+.search {
+    width: 14px;
+    align-content: center;
+}
+
+.sidebar-right{
+    float: right;
+    width: 200px;
+    margin-top: 15px;
+    background-color: #b0cec6;
+}
+
+.sidebar-text{
+    text-align: center;
+    margin: 10px;
+}
+
+.boer{
+    width: 160px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+.main-content {
+    width: 1000px;
+    padding: 20px;
+    margin: 20px;
+}
